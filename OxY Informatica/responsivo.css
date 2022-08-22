@@ -1,0 +1,34 @@
+@media screen and (min-width:0px) and (max-width:600px) {
+    .faixa-redes-sociais {
+        display: none;
+    }
+
+    #endereco-topo {
+        display: none;
+    }
+
+    .faixa-conteudo {
+        font-size: 12px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 0;
+        flex: 80%;
+    }
+
+    .nav-mobile {
+        display: flex;
+        flex: 20%;
+        font-size: 2.5rem;
+    }
+
+    .nav-mobile i {
+        margin-left: 10px;
+    }
+}
